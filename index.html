@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch Nums</title>
+</head>
+<body>
+    <div class = "box">
+        <button onclick="initGame()" class = "button buttonText">New Game</button>
+        <div class = "radioBox buttonText">
+            Choose Difficulty: <br> <br>
+            <input type="radio" name="difficulty" value="16" len="4"> Easy - 16 <br>
+            <input type="radio" name="difficulty" value="25" len="5"> Normal - 25 <br>
+            <input type="radio" name="difficulty" value="36" len="6"> Hard - 36
+            
+        </div>
+        <table border="4" class = "gameTable"></table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
